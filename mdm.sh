@@ -144,7 +144,7 @@ ask_block_hosts_recovery() {
             sed -i '' '/acmdm.apple.com/d' /Volumes/macOS/etc/hosts
             sed -i '' '/axm-adm-mdm.apple.com/d' /Volumes/macOS/etc/hosts
 
-            echo "# MDM Servers" >> /Volumes/macOS\ HD/etc/hosts
+            echo "# MDM Servers" >> /Volumes/macOS/etc/hosts
             echo "0.0.0.0 deviceenrollment.apple.com" >> /Volumes/macOS/etc/hosts
             echo "0.0.0.0 mdmenrollment.apple.com" >> /Volumes/macOS/etc/hosts
             echo "0.0.0.0 iprofiles.apple.com" >> /Volumes/macOS/etc/hosts
